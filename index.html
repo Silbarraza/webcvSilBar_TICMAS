@@ -12,14 +12,14 @@
     <!-- Hoja de estilo-->
     <link rel="stylesheet" href="/css/styles.css">
 
-    <!-- Tipografía: Pacific y Poppins -->
+    <!-- Tipografía: Poppins y Loras -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&display=swap" rel="stylesheet">
 
     <!-- Descripción -->
     <meta name="description" content="">
@@ -31,38 +31,142 @@
 
 <body id="base">
     <header class="header container-fluid">
-        <ul>
-            <li>Sobre mi</li>
-            <li>Formación académica</li>
-            <li>Experiencia laboral</li>
-            <li>Casos de estudio</li>
-            <li>Contacto</li>
-        </ul>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid align-items-end">
+              <a class="navbar-brand" href="./index.html">
+                <img src="/images/logo_500x500.png" class="logo_header" alt="Logo Silvana Barraza">
+              </a>
 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Sobre mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/productos.html">Formación</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/servicios.html">Casos de estudio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+
+                </ul>
+              </div>
+            </div>
+        </nav> 
     </header>
 
     <main class="container-fluid">
-        <section class="about_me">
-            <h1>Hola! Soy Silvana</h1>
-            <p id="about_me">Estas en la mi web cv, aquí vas a encontrar toda la información sobre mi personalmente, sobre mi formación y experiencia laboral.</p>
+        <section class="row d-flex justify-content-center pb-2">
+            <div class="card mb-3 col-fluid bg_intro">
+                <div class="row g-0 pt-3">
+                    <div class="col-2 col-md-4">
+                        <img src="/images/mujer_sonriendo.png" class="img-fluid rounded-start ms-3" alt="Foto perfil mujer sonriendo">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body ms-3">
+                            <h1 class="title_intro py-2">Hola! Soy Silvana</h1>
+                            <h3 class="subtitle_intro card-title fw-bolder">Diseñadora UX/UI | Desarrolladora web Frontend</h3>
+                            <p class="card-text intro_text my-3 pe-3">Estas en mi web CV, aqui vas a encontrar información sobre mi formación, habilidades, experiencia y cómo contactarme.</p>                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <button type="button" id="boton">Sobre mi</button>
+        <!-- <section class="row d-flex justify-content-start pb-2"">
+            <div class="col-fluid ms-2">
+                <h3 class="title_section pt-5">Sobre mi</h3>
+                <p id="about_me" ></p>
 
+
+                <nav class="row col-2 ms-2">
+                    <button type="button" id="boton" class="col">Ver más</button>
+                    <button type="button" id="boton_ocultar" class="col">Ocultar texto</button>
+                </nav>
+            </div>
+                        
+            <div class="col-md-8">
+                <p class="box_side">hl </p>
+
+            </div>
+        </section> -->
+
+        <section class="container-fluid justify-content-start">
+            <div class="row align-items-center mt-3 ">
+
+                <div class="col-fluid py-3 bg_seccion">
+                    <h3 class="title_section ms-2">Sobre mi</h3>
+                    
+                    <p id="about_me" class="ms-2" ></p>
+
+                    <nav class="row col-3 ms-2 py-3">
+                        <button type="button" id="boton">Ver más</button>
+                        <button type="button" id="boton_ocultar">Ocultar texto</button>
+                    </nav>
+                </div>
+
+                <div class="col-6">
+            
+                </div>
+             
+            </div>
         </section>
 
         <section>
+            <h3 class="title_section">Formación</h3>
             
         </section>
 
         <section>
+            <h3 class="title_section">Experiencia</h3>
+
+        </section>
+
+        <section>
+            <h3 class="title_section">Casos de estudio</h3>
+
+        </section>
+
+        <section>
+            <h3 class="title_section">Contacto</h3>
 
         </section>
 
 
     </main>
+    
 
-    <footer class="container-fluid">
-
+    
+    <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <img class="logo_footer" src="/images/logo_500x500.png" alt="Logo Silvana Barraza">
+            <span class="mb-3 mb-md-0 text-muted">&copy; Silvana Barraza | 2023</span>
+          </a>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-4">
+            <li class="ms-3">
+                <a href="https://www.linkedin.com/in/silvanabarraza/" target="_blank">
+                    <img class="icono_rrss" src="/images/logotipo-de-linkedin.png" alt="Icono linkedin">
+                </a>
+            </li>
+            <li class="ms-3">
+                <a href="https://api.whatsapp.com/send?phone=543816205952&text=Hola%20soy%20Silvana!%20Te%20responder%C3%A9%20a%20la%20brevedad!" target="_blank">
+                    <img class="icono_rrss" src="/images/whatsapp.png" alt="Icono whatsapp">
+                </a>
+            </li>
+        </ul>
     </footer>
 
 <!-- Mis scripts-->

@@ -6,13 +6,91 @@
 }
 
 #base {
-    background: #ADA996;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
 }
 
+/* Header */
 .header {
-    background-color: #DF9C16;
-    background-image: linear-gradient(90deg, #DF9C16 0%, #F7A400 80%, #FFD600 99%);
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
 }
 
+.logo_header {
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+}
+/* Seccion introduccion */
+.bg_intro {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.foto_perfil {
+    width: 50%;
+    height: auto;
+}
+
+.title_intro {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    font-weight:500;
+    color:#f794a4;
+   
+}
+
+.subtitle_intro {
+    font-size:large;
+    font-stretch: expanded;
+    color:#de6e81;
+
+}
+
+.intro_text {
+    font-size: 18px;
+    font-stretch: expanded;
+}
+
+
+
+/* Seccion Sobre mi */
+.title_section {
+    font-family: 'Lora', serif;
+    font-weight: 500;
+}
+
+/* .box_side {
+    display: block;
+    background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+    width: auto;
+    height: 300px;
+} */
+
+.bg_seccion {
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    margin-left: 0;
+}
+
+#boton,
+#boton_ocultar {
+    background-color: #f794a4;
+    padding: 2px 8px;
+    border-radius: 6px;
+    color: #0d0d0e;
+    font-weight: 400;
+}
+
+/* Footer */
+
+.logo_footer {
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 4px;
+    
+}
+
+.icono_rrss {
+    width: 25px;
+    height: 25px;
+}
