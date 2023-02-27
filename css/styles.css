@@ -53,17 +53,20 @@
 
 
 /* Seccion Sobre mi */
-.title_section {
+#title_seccion1,
+#title_seccion2,
+#title_seccion3,
+#title_seccion4,
+#title_seccion5 {
     font-family: 'Lora', serif;
     font-weight: 500;
 }
 
-/* .box_side {
-    display: block;
+.bg_side_box {
+    
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-    width: auto;
-    height: 300px;
-} */
+    
+}
 
 .bg_seccion {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);

@@ -23,7 +23,7 @@
 
     <!-- Descripción -->
     <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="keywords" content="cv, curriculum viate, cv web, diseño ux/ui, ux/ui desing, web developer, desarrolladora web">
         
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -44,19 +44,19 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Sobre mi</a>
+                    <a class="nav-link active" aria-current="page" href="#title_seccion1">Sobre mi</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/productos.html">Formación</a>
+                    <a class="nav-link" href="#title_seccion2">Formación</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/servicios.html">Experiencia</a>
+                    <a class="nav-link" href="#title_seccion3">Experiencia</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/servicios.html">Casos de estudio</a>
+                    <a class="nav-link" href="#title_seccion4">Casos de estudio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                    <a class="nav-link" href="#title_seccion5">Contacto</a>
                   </li>
 
                 </ul>
@@ -101,44 +101,46 @@
             </div>
         </section> -->
 
-        <section class="container-fluid justify-content-start">
-            <div class="row align-items-center mt-3 ">
-
-                <div class="col-fluid py-3 bg_seccion">
-                    <h3 class="title_section ms-2">Sobre mi</h3>
+       <!-- Sección 1 Sobre mi -->
+        <section class="row d-flex justify-content-center pb-2">
+            <div class="card mb-3 col-fluid bg_intro">
+                <div class="row g-0">
+                    <div class="col-2 col-md-4 bg_side_box">
+                        <!-- <img src="/images/mujer_sonriendo.png" class="img-fluid rounded-start ms-3" alt="Foto perfil mujer sonriendo"> -->
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body ms-3">
+                            <h3 id="title_seccion1" class="ms-2">Sobre mi</h3>
                     
-                    <p id="about_me" class="ms-2" ></p>
+                            <p id="about_me" class="ms-2" ></p>
 
-                    <nav class="row col-3 ms-2 py-3">
-                        <button type="button" id="boton">Ver más</button>
-                        <button type="button" id="boton_ocultar">Ocultar texto</button>
-                    </nav>
+                            <nav class="row col-3 ms-2 py-3">
+                                <button type="button" id="boton">Ver más</button>
+                                <button type="button" id="boton_ocultar">Ocultar texto</button>
+                            </nav>       
+                        </div>
+                    </div>
                 </div>
-
-                <div class="col-6">
-            
-                </div>
-             
             </div>
         </section>
 
         <section>
-            <h3 class="title_section">Formación</h3>
+            <h3 id="title_seccion2">Formación</h3>
             
         </section>
 
         <section>
-            <h3 class="title_section">Experiencia</h3>
+            <h3 id="title_seccion3">Experiencia</h3>
 
         </section>
 
         <section>
-            <h3 class="title_section">Casos de estudio</h3>
+            <h3 id="title_seccion4">Casos de estudio</h3>
 
         </section>
 
         <section>
-            <h3 class="title_section">Contacto</h3>
+            <h3 id="title_seccion5">Contacto</h3>
 
         </section>
 
@@ -147,7 +149,7 @@
     
 
     
-    <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4 border-top">
+    <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <img class="logo_footer" src="/images/logo_500x500.png" alt="Logo Silvana Barraza">

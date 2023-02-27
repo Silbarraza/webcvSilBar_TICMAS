@@ -19,9 +19,9 @@ function modificar_parrafo (parrafo){
 //variables
 //let intro_about_me = document.getElementById("about_me");
 
-const about_me_intro='Soy diseñadora UX/UI, desarrolladora web frontend y también licenciada en nutrición.';
+const about_me_intro='Soy diseñadora UX/UI, desarrolladora web frontend y también licenciada en nutrición.                                            ';
 
-const about_me='Durante la pandemia, conoci estas nuevas herramientas y tuve la oportunidad de aprenderlas. Uno de mis objetivos es poder seguir este camino laboral y profesionalmente, capacitandome, adquiriendo nuevas habilidades y llevandolas a la práctica. Y por qué no, cuando sea propicio, darle mi persepectiva en relación a la salud y la nutricón cuando.';
+const about_me='Soy diseñadora UX/UI, desarrolladora web frontend y también licenciada en nutrición. Durante la pandemia, conoci este nuevo mundo y tuve la oportunidad de aprender nuevas herramientas. Uno de mis objetivos es poder seguir este camino laboral y profesionalmente, capacitandome, adquiriendo nuevas habilidades y llevandolas a la práctica. Y por qué no, cuando sea propicio, darle mi persepectiva en relación a la salud y la nutricón cuando.';
 
 
 let boton = document.getElementById("boton");
