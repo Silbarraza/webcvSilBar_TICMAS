@@ -30,7 +30,7 @@
 </head>
 
 <body id="base">
-    <header class="header container-fluid">
+    <header class="header container-fluid sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid align-items-end">
               <a class="navbar-brand" href="./index.html">
@@ -50,7 +50,7 @@
                     <a class="nav-link" href="#title_seccion2">Formación</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#title_seccion3">Experiencia</a>
+                    <a class="nav-link" href="#title_seccion3">Mi trabajo</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#title_seccion4">Casos de estudio</a>
@@ -66,8 +66,9 @@
     </header>
 
     <main class="container-fluid">
-        <section class="row d-flex justify-content-center pb-2">
-            <div class="card mb-3 col-fluid bg_intro">
+        <!-- Introducción -->
+        <section class="row d-flex justify-content-center">
+            <div class="card col-fluid border border-top-0 bg_intro">
                 <div class="row g-0 pt-3">
                     <div class="col-2 col-md-4">
                         <img src="/images/mujer_sonriendo.png" class="img-fluid rounded-start ms-3" alt="Foto perfil mujer sonriendo">
@@ -82,74 +83,103 @@
                 </div>
             </div>
         </section>
+        
+        <div class="row d-flex justify-content-around p-3 mt-4">
+            <!-- Secciones -->
+            
+            <aside class="col-md-3 border rounded bg_seccion">
+                
+                <div>
 
-        <!-- <section class="row d-flex justify-content-start pb-2"">
-            <div class="col-fluid ms-2">
-                <h3 class="title_section pt-5">Sobre mi</h3>
-                <p id="about_me" ></p>
-
-
-                <nav class="row col-2 ms-2">
-                    <button type="button" id="boton" class="col">Ver más</button>
-                    <button type="button" id="boton_ocultar" class="col">Ocultar texto</button>
-                </nav>
-            </div>
-                        
-            <div class="col-md-8">
-                <p class="box_side">hl </p>
-
-            </div>
-        </section> -->
-
-       <!-- Sección 1 Sobre mi -->
-        <section class="row d-flex justify-content-center pb-2">
-            <div class="card mb-3 col-fluid bg_intro">
-                <div class="row g-0">
-                    <div class="col-2 col-md-4 bg_side_box">
-                        <!-- <img src="/images/mujer_sonriendo.png" class="img-fluid rounded-start ms-3" alt="Foto perfil mujer sonriendo"> -->
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body ms-3">
-                            <h3 id="title_seccion1" class="ms-2">Sobre mi</h3>
-                    
-                            <p id="about_me" class="ms-2" ></p>
-
-                            <nav class="row col-3 ms-2 py-3">
-                                <button type="button" id="boton">Ver más</button>
-                                <button type="button" id="boton_ocultar">Ocultar texto</button>
-                            </nav>       
-                        </div>
+                    <h3 id="title_seccion5" class="pt-4">Contacto</h3>
+                                          
+                    <div class="card-body my-4">
+                        <ul class="lista_contacto">
+                            <li>Tel: <a href="#">11-5659524</a></li>
+                            <li>Dirección: <a href="#">Monte Grande - Prov. de Bs As</a></li>
+                            <li>E-mail: <a href="mailto:barrazasilvana@gmail.com" target="_blank">barrazasilvana@gmail.com</a></li>
+                            <li>Linkedin: <a href="https://www.linkedin.com/in/silvanabarraza/" target="_blank">in/silvanabarraza/</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-        </section>
 
-        <section>
-            <h3 id="title_seccion2">Formación</h3>
+                <div class="separador my-3"></div>
+
+                <div class="px-2">                   
+                    <h3 id="title_seccion2" class="my-4">Formación</h3>
+                    
+                    <div class="py-2 m-2">
+                       <h5 class="subtitulo_formacion">Desarrolladora UX/UI</h5>
+                       <p class="text-muted">Coderhouse | 2021-2022</p>
+                    </div>
+                    <div class="py-2 m-2">
+                        <h5 class="subtitulo_formacion">Licenciada en Nutrición</h5>
+                        <p class="text-muted">UNSTA -Tucumán | 2007-2014</p>
+                    </div>
+                    <div class="py-2 m-2">
+                        <h5 class="subtitulo_formacion">Bachiller con Orientación Laboral Administrativo Contable</h5>
+                        <p class="text-muted">Col. Sec. J. A. Lacroze - Prov. Salta | 1998-2002</p>
+                    </div>
+                    
+                </div>
+            </aside>                        
             
-        </section>
+            <div class="secciones col-8 justify-content-center">
 
-        <section>
-            <h3 id="title_seccion3">Experiencia</h3>
+                <section class="row bg_seccion rounded p-3">
+                    <h3 id="title_seccion1" class="pt-3">Sobre Mí</h3>
 
-        </section>
+                    <p id="about_me" class="p-2"></p>
 
-        <section>
-            <h3 id="title_seccion4">Casos de estudio</h3>
+                    <nav class="row col ps-4 pb-4 justify-content-center">
+                        <button type="button" id="boton">Ver más</button>
+                        <button type="button" id="boton_ocultar">Ocultar texto</button>
+                    </nav>
 
-        </section>
+                </section>
 
-        <section>
-            <h3 id="title_seccion5">Contacto</h3>
+                <section class="row bg_seccion rounded p-3 mt-3 justify-content-center">
+                    <h3 id="title_seccion3" class="pt-3">Mí Trabajo</h3>
 
-        </section>
+                    <p class="texto_mi_trabajo">La mayoria  los proyectos que he realizado, han sido bajo acuerdo de confidencialidad, por lo que no puedo mostrarlos aquí.</p>
+                    <p class="texto_mi_trabajo">Pongamonos en contacto, para guiarte a través de algunos de ellos.</p>
+                        
+                    <nav class="row col ps-4 pb-4 justify-content-center">
+                        <button type="button" id="boton_contacto"><a href="mailto:barrazasilvana@gmail.com">Contáctame</a></button>
+                    </nav>
 
+                    <p class="texto_mi_trabajo">Aquí, también podes ver una de las paginas web que diseñé</p>
 
+                    <div class="row row-cols-lg-2 row-cols-md-1 row-cols-sm-1 g-1 justify-content-center">
+
+                        <div class="col">
+                            <div class="card h-100">
+                                
+                                <div class="card-body color_card rounded">
+                                    <h5 class="card-title text-center"><a href="https://silbarraza.github.io/3raentrega_PDW_sBarraza/" target="_blank" class="ver_web_btn">Cecil Pastelería</a></h5>
+                                    <p class="card-text">Este proyecto comercial fue una propuesta de valor, que planteaba una forma de aumentar el alcance del negocio, potenciando la fidelización de los clientes y la visibilidad de sus productos y servicios. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>              
+                </section>
+
+                <section class="row bg_seccion rounded p-3 mt-3">
+                    <h3 id="title_seccion4" class="pt-3">Casos de estudio</h3>
+
+                    
+                </section>
+            </div>
+
+            
+            
+        </div>
+            
     </main>
     
 
     
-    <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4">
+    <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-between align-items-center pt-3 mt-0">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/index.html" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
             <img class="logo_footer" src="/images/logo_500x500.png" alt="Logo Silvana Barraza">
