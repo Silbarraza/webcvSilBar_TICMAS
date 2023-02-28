@@ -14,6 +14,7 @@
 .header {
     /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+  
 }
 
 .logo_header {
@@ -80,7 +81,7 @@
 #boton_contacto {
     max-width: 150px;
     background-color:#de6e81;
-    padding: 2px 8px;
+    padding: 4px 8px;
     border-radius: 6px;
     border-color:#de6e81;
     color: #0d0d0e;
@@ -98,7 +99,7 @@
 }
 
 /* Seccion Mi trabajo */
-.texto_mi_trabajo{
+.texto_seccion{
     text-align: justify;
 }
 
@@ -119,7 +120,8 @@
 }
 
 .color_card {
-    background-color:#fcd0d763;
+    background-color:#ebedeefb;
+   
 }
 /* Contacto y Formación */
 
@@ -150,6 +152,26 @@
     font-weight: bold;
     color:#de6e81;
     letter-spacing: 1 px;
+}
+
+/* Casos de estudio */
+.subtitulo_seccion {
+    color: #de6e81;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* 
+.texto_card{
+    font-size: 16px;
+} */
+
+.boton_txt{
+    color: #000000;
+    text-decoration: none;
+}
+
+.boton_txt:hover{
+    color: #f794a4;
 }
 
 /* Footer */
