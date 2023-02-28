@@ -7,14 +7,11 @@
 
 #base {
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
 }
 
 /* Header */
 .header {
-    /* background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%); */
     background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-  
 }
 
 .logo_header {
@@ -22,6 +19,8 @@
     height: auto;
     border-radius: 15px;
 }
+
+
 /* Seccion introduccion */
 .bg_intro {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
@@ -52,6 +51,48 @@
     font-stretch: expanded;
 }
 
+
+@media (max-width: 768px) {
+    .title_intro {
+        
+        font-size: 32px;
+        color: rebeccapurple;
+        
+       
+    }
+    .subtitle_intro {
+        font-size:medium;
+        
+    
+    }
+    
+    .intro_texto {
+        font-size: 16px;
+    }   
+    
+}
+
+@media (max-width: 576px) {
+    .title_intro {
+        
+        font-size: 48px;
+        font-weight:500;
+        
+       
+    }
+    .subtitle_intro {
+        font-size:large;
+        font-stretch: expanded;
+        
+    
+    }
+    
+    .intro_text {
+        font-size: 18px;
+        font-stretch: expanded;
+    }  
+    
+}
 
 
 /* Secciones */
@@ -180,13 +221,9 @@
 
 /* Footer */
 
-.logo_footer {
-    width: 15%;
-    height: auto;
-    border-radius: 15px;
-    margin: 8px;
-    padding: 4px;
-    
+.texto_footer{
+    text-decoration: none;
+    color: #000000;
 }
 
 

@@ -30,7 +30,7 @@
 </head>
 
 <body id="base">
-    <header class="header container-fluid sticky-top">
+    <header class="header container-fluid">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid align-items-end">
                 <a class="navbar-brand" href="./index.html">
@@ -58,6 +58,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#formacion">Formación</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#idioma_sft">Idioma y software</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cursos">Cursos</a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -76,7 +83,7 @@
                         <div class="card-body ms-3">
                             <h1 class="title_intro py-2">Hola! Soy Silvana</h1>
                             <h3 class="subtitle_intro card-title fw-bolder">Diseñadora UX/UI | Desarrolladora web Frontend</h3>
-                            <p class="card-text intro_text my-3 pe-3">Estas en mi web CV, aqui vas a encontrar información sobre mi formación, habilidades, experiencia y cómo contactarme.</p>                        
+                            <p class="card-text intro_texto my-3 pe-3">Estas en mi web CV, aqui vas a encontrar información sobre mi formación, habilidades, experiencia y cómo contactarme.</p>                        
                         </div>
                     </div>
                 </div>
@@ -89,7 +96,7 @@
             <aside class="col-md-3 border rounded bg_seccion">
                 
                 <div class="px-2" id="formacion">                   
-                    <h3 class="title_seccion my-4">Formación</h3>
+                    <h3 class="title_seccion mt-4">Formación</h3>
                     
                     <div class="py-2 m-2">
                        <h5 class="subtitulo_formacion">Desarrolladora UX/UI</h5>
@@ -108,7 +115,7 @@
                 <div class="separador my-3"></div>
 
                 <div class="px-2" id="idioma_sft">                   
-                    <h3 class="title_seccion my-4">Idioma y software</h3>
+                    <h3 class="title_seccion mt-4">Idioma y software</h3>
                     
                     <div class="py-2 m-2">
                        <h5 class="subtitulo_formacion">Inglés</h5>
@@ -134,7 +141,7 @@
                 <div class="separador my-3"></div>
 
                 <div class="px-2" id="cursos">                   
-                    <h3 class="title_seccion my-4">Cursos</h3>
+                    <h3 class="title_seccion mt-4">Cursos</h3>
                     
                     <div class="py-2 m-2">
                        <h5 class="subtitulo_formacion">JavaScript</h5>
@@ -216,8 +223,8 @@
                     <h3 class="title_seccion pt-3">Casos de estudio</h3>
                     <p class="texto_seccion">Hasta el momento, he realizado dos casos de estudio. Aquí, podrás verlos en detalle.</p>
 
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
+                    <div class="row row-cols-1 row-cols-md-2 g-4 pt-0 m-0">
+                        <div class="col pt-0 mt-0 ">
                             <div class="card">
                                 <img src="/images/casodeestudio_1.png" class="card-img-top" alt="Mock up app de delivery saludable">
                                 <div class="card-body">
@@ -232,7 +239,7 @@
                             </div>
                         </div>
 
-                        <div class="col">
+                        <div class="col pt-0 mt-0">
                             <div class="card">
                                 <img src="/images/casodeestudio_2.png" class="card-img-top" alt="Mockup de app de delivery Rappi">
                                 <div class="card-body">
@@ -287,27 +294,17 @@
     
     <footer class="pt-3 mt-4 border-top">
         <ul class="nav justify-content-center pb-2 mb-2">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+          <li class="nav-item"><a href="#sobre_mi" class="nav-link px-2 text-muted">Sobre Mí</a></li>
+          <li class="nav-item"><a href="#mi_trabajo" class="nav-link px-2 text-muted">Mi trabajo</a></li>
+          <li class="nav-item"><a href="#casos_de_estudio" class="nav-link px-2 text-muted">Casos de estudio</a></li>
+          <li class="nav-item"><a href="#formacion" class="nav-link px-2 text-muted">Formación</a></li>
+          <li class="nav-item"><a href="#idioma_sft" class="nav-link px-2 text-muted">Idioma y software</a></li>
+          <li class="nav-item"><a href="#cursos" class="nav-link px-2 text-muted">Cursos</a></li>
+          <li class="nav-item"><a href="#contacto" class="nav-link px-2 text-muted">Contacto</a></li>
         </ul>
-        <p class="text-center text-muted">&copy; 2023 | SilBar</p>
-    </footer>
-    
-    <!-- <footer class="footer conatiner-fluid d-flex flex-wrap justify-content-center align-items-center pt-3 mt-0">
-    
-        <div class="row col-md-4 d-flex align-items-center">
 
-            <a href="/index.html" class="mb-md-0 text-muted text-decoration-none lh-1">
-                <img class="logo_footer" src="/images/logo_500x500.png" alt="Logo Silvana Barraza">
-            </a>
-            <span class="mb-3 mb-md-0 text-muted">&copy; Silvana Barraza | 2023</span>
-        </div>
-    
-        
-    </footer> -->
+        <p class="text-center text-muted"> &copy; 2023 | <a href="/index.html" class="texto_footer text-muted">SilBar</a></p>
+    </footer>
 
 <!-- Mis scripts-->
 <script src="/js/main.js"></script>
